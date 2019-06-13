@@ -1,0 +1,4 @@
+<div [class]="classes" *ngIf="!isDismissed">
+  <ng-content></ng-content>
+  <span *ngIf="dismissable" class="slui-alert-dismiss-icon" (click)="dismiss()">x</span>  
+</div>

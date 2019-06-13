@@ -1,0 +1,42 @@
+@import '../../variable.scss';
+
+.slui-button {
+    width: 140px;
+    height: 45px;
+    font-family: $default-font;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.slui-button-size-sm {
+    font-size: 0.9rem;
+}
+
+.slui-button-size-xs {
+    font-size: 0.7rem;
+}
+
+.slui-button-default {
+    color: #000;
+    background: $default;
+}
+
+.slui-button-danger {
+    color: white;
+    background: $danger;
+}
+
+.slui-button-success {
+    color: white;
+    background: $success;
+}

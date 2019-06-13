@@ -1,0 +1,48 @@
+@import '../../variable.scss';
+
+.slui-alert {
+    padding: 6px 20px;
+    font-family: $default-font;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 5px;
+    position: relative;
+
+    .slui-alert-dismiss-icon {
+        position: absolute;
+        right: 10px;
+        top: 25%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.7rem;
+        cursor: pointer;
+    }
+}
+
+
+.slui-alert-default {
+    color: #000;
+    background: $default;
+}
+
+.slui-alert-danger {
+    color: white;
+    font-weight: bold;
+    background: $danger;
+}
+
+.slui-alert-success {
+    color: white;
+    background: $success;
+    font-style: italic;
+}
